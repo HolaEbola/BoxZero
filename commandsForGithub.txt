@@ -3,11 +3,37 @@ to use your branch
 use: git checkout branchName
 
 
+<<<<<<< HEAD
 to push to Github
+=======
+#########################################
+#####    TO PUSH TO YOUR BRANCH   #######
+#########################################
+>>>>>>> b8774724d4d0a3e2cd76fa7b8e710a0a2e790d08
 
 use: git checkout branchName
      git status
      git add *
      git commit -m "message"
      git push origin branchName
+<<<<<<< HEAD
+=======
+
+
+
+#########################################
+#####    TO PUSH TO BOTH        #########
+#########################################
+
+
+
+
+NB ONLY DO THIS ONCE TESTED AND SURE IT WORKS!!!!
+
+
+
+Note is you are in you branch
+
+use: git push
+>>>>>>> b8774724d4d0a3e2cd76fa7b8e710a0a2e790d08
      
