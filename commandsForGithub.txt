@@ -29,4 +29,16 @@ NB ONLY DO THIS ONCE TESTED AND SURE IT WORKS!!!!
 Note is you are in you branch
 
 use: git push
-     
+
+
+
+#############################################################
+#####    OVERRIDES YOUR BRANCH WITH THE MASTER ONE	#####
+#############################################################
+ 
+
+
+git checkout master
+git merge -s our YourBranchName
+git checkout YourBranchName
+git merge master
