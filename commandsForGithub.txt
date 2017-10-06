@@ -1,0 +1,32 @@
+to use your branch
+
+use: git checkout branchName
+
+
+#########################################
+#####    TO PUSH TO YOUR BRANCH   #######
+#########################################
+
+use: git checkout branchName
+     git status
+     git add *
+     git commit -m "message"
+     git push origin branchName
+
+
+
+#########################################
+#####    TO PUSH TO BOTH        #########
+#########################################
+
+
+
+
+NB ONLY DO THIS ONCE TESTED AND SURE IT WORKS!!!!
+
+
+
+Note is you are in you branch
+
+use: git push
+     
