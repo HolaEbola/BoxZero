@@ -31,5 +31,17 @@ Note is you are in you branch
 use: git push
 
 
-https://stackoverflow.com/questions/2862590/how-to-replace-master-branch-in-git-entirely-from-another-branch
+#########################################
+#####     TO MERGE BRANCHES     #########
+#########################################
+
+
+
+git checkout master
+git merge -s ours yourBranchNameHere
+git checkout yourBranchNameHere
+git merge master
+
+
+
      
