@@ -29,4 +29,7 @@ NB ONLY DO THIS ONCE TESTED AND SURE IT WORKS!!!!
 Note is you are in you branch
 
 use: git push
+
+
+https://stackoverflow.com/questions/2862590/how-to-replace-master-branch-in-git-entirely-from-another-branch
      
