@@ -1,0 +1,13 @@
+to use your branch
+
+use: git checkout branchName
+
+
+to push to Github
+
+use: git checkout branchName
+     git status
+     git add *
+     git commit -m "message"
+     git push origin branchName
+     
