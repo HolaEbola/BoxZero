@@ -12,6 +12,7 @@ use: git checkout branchName
      git add *
      git commit -m "message"
      git push origin branchName
+<<<<<<< HEAD
 
 
 
@@ -42,3 +43,5 @@ git checkout master
 git merge -s our YourBranchName
 git checkout YourBranchName
 git merge master
+=======
+>>>>>>> 0c1922761c3018723362efb07b161a8a7c31d7f0
