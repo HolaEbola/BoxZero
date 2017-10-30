@@ -12,6 +12,7 @@ use: git checkout branchName
      git add *
      git commit -m "message"
      git push origin branchName
+<<<<<<< HEAD
 
 
 
@@ -29,4 +30,18 @@ NB ONLY DO THIS ONCE TESTED AND SURE IT WORKS!!!!
 Note is you are in you branch
 
 use: git push
-     
+
+
+
+#############################################################
+#####    OVERRIDES YOUR BRANCH WITH THE MASTER ONE	#####
+#############################################################
+ 
+
+
+git checkout master
+git merge -s our YourBranchName
+git checkout YourBranchName
+git merge master
+=======
+>>>>>>> 0c1922761c3018723362efb07b161a8a7c31d7f0
